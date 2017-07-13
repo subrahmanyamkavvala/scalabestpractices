@@ -18,8 +18,13 @@ object Functions {
     delayed(1234567890);
    // time();
     
+    //calling variale atgumetns functions
      printStrings("hello","scala","python");
      printStrings("hello");
+     
+     //calling named functions
+     
+     printInt(b = 5, a = 7);
     
   }
   
@@ -54,4 +59,16 @@ object Functions {
          i = i + 1;
       }
    }
+   
+   
+   // functions with named arguments 
+   //specifying the name of the passed value when calling the fucntion 
+   
+   
+   def printInt( a:Int, b:Int ) = {
+      println("Value of a : " + a );
+      println("Value of b : " + b );
+   }
+   
+   
 }
